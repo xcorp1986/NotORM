@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "PhalApi\\NotORM": "src"
+      "PhalApi\\NotORM\\": "src"
     }
   }
 }
