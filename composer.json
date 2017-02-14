@@ -1,0 +1,17 @@
+{
+  "name": "phalapi/notorm",
+  "description": "phalapi notorm package",
+  "minimum-stability": "dev",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "kwan",
+      "email": "303198069@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhalApi\\NotORM": "src"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+language: php
+php:
+  - '7.0'
+  - '7.1'
+
+notifications:
+  email:
+    - 303198069@qq.com
+    - 376741929@qq.com
+    - 442484396@qq.com
+
+before_script:
+  - composer self-update
+  - COMPOSER_ROOT_VERSION=dev-master composer dump-autoload
