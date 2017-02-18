@@ -1,6 +1,11 @@
 {
-  "name": "phalapi/notorm",
-  "description": "phalapi notorm package",
+  "name": "cheukpang/notorm",
+  "description": "notorm package refactor with psr-4 and friendly with composer",
+  "keywords": [
+    "ORM",
+    "composer",
+    "psr-4"
+  ],
   "minimum-stability": "dev",
   "license": "GPL-2.0",
   "authors": [
@@ -11,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "PhalApi\\NotORM\\": "src"
+      "Cheukpang\\NotORM\\": "src"
     }
   }
 }
